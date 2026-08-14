@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this exploratory software, please cite it using this metadata."
+title: "Equity-Aware Contextual Bandits for Alternative Delivery Recommendations"
+type: software
+authors:
+  - given-names: Mustafa
+    family-names: Fardin
+version: 0.1.0
+date-released: 2026-08-14

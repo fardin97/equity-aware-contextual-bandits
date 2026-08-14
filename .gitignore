@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Notebook state
+.ipynb_checkpoints/
+
+# Data, caches, models, and generated runs
+data/
+artifacts/
+*.pkl
+*.pickle
+*.joblib
+*.parquet
+*.feather
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+~$*

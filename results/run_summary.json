@@ -1,0 +1,19 @@
+{
+  "n_day_rows": 20785,
+  "n_person_rows": 8569,
+  "n_household_rows": 3512,
+  "n_trip_rows": 115920,
+  "n_linked_trips": 80134,
+  "n_model_rows": 20247,
+  "target": "ooh_any",
+  "target_positive_n": 716,
+  "target_positive_rate": 0.03536326369338667,
+  "best_supervised_model": "M1_core_opportunity__random_forest_balanced",
+  "best_supervised_pr_auc": 0.1258552036256742,
+  "main_outcome_interpretation": "broad out-of-home / non-home package delivery target",
+  "best_supervised_roc_auc": 0.729422355274796,
+  "best_supervised_brier": 0.04456057880258661,
+  "n_bandit_events": 5025,
+  "n_bandit_runs": 100,
+  "opportunity_source": "survey_proxy"
+}

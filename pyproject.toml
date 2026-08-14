@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "equity-aware-contextual-bandits"
+version = "0.1.0"
+description = "Simulation-based contextual-bandit research for alternative delivery recommendations"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "Mustafa Fardin" },
+]
+dependencies = [
+  "numpy>=1.26,<3",
+  "pandas>=2.2,<3",
+]
+
+[project.optional-dependencies]
+notebook = [
+  "ipykernel>=6,<7",
+  "jupyterlab>=4,<5",
+  "matplotlib>=3.8,<4",
+  "openpyxl>=3.1,<4",
+  "scikit-learn>=1.4,<2",
+]
+geo = [
+  "geopandas>=0.14,<2",
+  "osmnx>=1.9,<3",
+  "requests>=2.31,<3",
+  "shapely>=2,<3",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
